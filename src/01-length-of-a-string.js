@@ -1,5 +1,5 @@
 const getLength = string => {
-  return string.length;
+  // your codes here
 };
 
 export { getLength };
