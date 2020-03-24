@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest src/__tests__/* --watch"
+    "test": "jest --watch"
   },
   "author": "",
   "license": "ISC",
