@@ -4,6 +4,10 @@ test("8 characters with uppercase and a number is valid", () => {
   expect(checkPassword("Password1")).toBe(true);
 });
 
+test("8 characters with uppercase at the end and a number is valid", () => {
+  expect(checkPassword("1passworD")).toBe(true);
+});
+
 test("8 characters with uppercase but no number is invalid", () => {
   expect(checkPassword("Password")).toContain(
     "Valid passwords must contain at least 1 number"
