@@ -1,4 +1,4 @@
-# Prototypes Challenge
+# Datatypes Challenge
 
 This is the afternoon challenge for data types from Coder Academy.
 
