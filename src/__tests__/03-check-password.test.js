@@ -30,3 +30,11 @@ test("short passwords are invalid", () => {
     "Valid passwords must contain at least one capital letter"
   );
 });
+
+test("short passwords are invalid", () => {
+    const result = checkPassword("P4ss");
+    expect(result).toContain("Valid passwords are at least 8 characters");
+    expect(result).not.toContain("Valid passwords must contain at least 1 number");
+    expect(result).not.toContain("Valid passwords must contain at least one capital letter");
+
+});
